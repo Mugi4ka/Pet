@@ -1,0 +1,14 @@
+<template>
+  <v-app>
+    <Header/>
+    <v-main>
+      <v-container>
+        <v-breadcrumbs
+          divider="/"
+        ></v-breadcrumbs>
+        <Nuxt/>
+      </v-container>
+    </v-main>
+    <Footer/>
+  </v-app>
+</template>
